@@ -100,13 +100,13 @@ void Rectangulo::CalcularPerimetro(){
 
 int main(){
 
-    Rectangulo objeto;
-    objeto.CambiarColor();
-    objeto.Mover();
-    objeto.Imprimir();
-    objeto.CalcularArea();
-    objeto.CalcularPerimetro();
-    objeto.CambiarTamano();
+    Rectangulo obj;
+    obj.Mover();
+    obj.CambiarColor();
+    obj.Imprimir();
+    obj.CalcularArea();
+    obj.CambiarTamano();
+    obj.CalcularPerimetro();
     return 0;
 
 }
